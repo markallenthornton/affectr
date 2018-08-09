@@ -1,0 +1,13 @@
+Package: affectr
+Type: Package
+Title: Weighted Dictionary Analysis of Text Affect
+Version: 0.0.1.0000
+Authors@R: person("Mark", "Thornton", email = "mark.allen.thornton@gmail.com", role = c("aut", "cre"))
+Description: This package computes the affect of text using weighted dictionaries. Although intended for sentiment analysis, other word vectors can also be scored. The included 3-D affect space - consisting of rationality, social impact, and valence - was derived from analysis of patterns of brain activity associated thinking about individual mental states: Tamir, D. I., Thornton, M. A., Contreras, J. M., & Mitchell, J. P. (2016). Neural evidence that three dimensions organize mental state representation: Rationality, social impact, and valence. Proceedings of the National Academy of Sciences of the United States of America, 113(1), 194-199.
+Depends:
+	R (>= 3.3.1)
+License: GPL 3.0
+Encoding: UTF-8
+LazyData: true
+Imports: stringr
+RoxygenNote: 6.1.0
